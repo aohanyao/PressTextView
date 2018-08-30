@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <text.prese.jc.com.presstextview.ui.PressTextView
+        android:layout_width="200dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="立即领取(正常)"
+        android:textSize="18sp"
+        app:DisableBackgroundColor="#eeeeee"
+        app:DisableTextColor="#999"
+        app:NormalBackgroundColor="#F44336"
+        app:NormalTextColor="#fff"
+        app:PressBackgroundColor="#D32F2F"
+        app:PressTextColor="#eee"
+        app:Radius="4dp"
+        app:SelectBackgroundColor="#FF5252"
+        app:SelectTextColor="@color/colorAccent" />
+
+
+    <text.prese.jc.com.presstextview.ui.PressTextView
+        android:layout_width="200dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:enabled="false"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="立即领取(禁用)"
+        android:textSize="18sp"
+        app:DisableBackgroundColor="#eeeeee"
+        app:DisableTextColor="#999"
+        app:NormalBackgroundColor="#F44336"
+        app:NormalTextColor="#fff"
+        app:PressBackgroundColor="#D32F2F"
+        app:PressTextColor="#eee"
+        app:Radius="4dp"
+        app:SelectBackgroundColor="#FF5252"
+        app:SelectTextColor="@color/colorAccent" />
+
+
+    <text.prese.jc.com.presstextview.ui.PressTextView
+        android:layout_width="200dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="立即领取(选中)"
+        android:textSize="18sp"
+        app:DisableBackgroundColor="#eeeeee"
+        app:DisableTextColor="#999"
+        app:NormalBackgroundColor="#F44336"
+        app:NormalTextColor="#fff"
+        app:PressBackgroundColor="#D32F2F"
+        app:PressTextColor="#eee"
+        app:Radius="4dp"
+        app:SelectBackgroundColor="#FF5252"
+        app:SelectTextColor="@color/colorAccent" />
+</LinearLayout>
